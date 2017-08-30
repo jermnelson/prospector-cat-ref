@@ -20,14 +20,25 @@
 
     <!-- Begin page content -->
     <div class="container">
-      <div class="mt-1">
-        <h1>GoldRush&reg; BIBCAT</h1>
-      </div>
-      <p class="lead">
-            Status update for the <a href="https://bibcat.prospector.org/">GoldRush BIBCAT</a> 
-            project. 
-      </p>
-      <p>Use <a href="../sticky-footer-navbar">the sticky footer with a fixed navbar</a> if need be, too.</p>
+        <div class="mt-1">
+            <h1>GoldRush&reg; BIBCAT</h1>
+        </div>
+        <p class="lead">
+            October 5<sup>th</sup>, 2017 Status update for the 
+            <a href="https://bibcat.prospector.org/">GoldRush BIBCAT</a> project. 
+        </p>
+        <h2>{{ pages.get('intro').meta.title }}</h2> 
+         {{ pages.get('intro').html|safe }}
+        <hr>
+        <h2>{{ pages.get('bml-basics').meta.title }}</h2>
+        {{ pages.get('bml-basics').html|safe }}
+        <hr>
+        <h2>{{ pages.get('bml-1-learning').meta.title }}</h2>
+        {{ pages.get('bml-1-learning').html|safe }}
+        <hr>
+        <h2>{{ pages.get('bml-2-build').meta.title }}</h2>
+        {{ pages.get('bml-2-build').html|safe }}
+        <hr>
     </div>
 
     <footer class="footer">
