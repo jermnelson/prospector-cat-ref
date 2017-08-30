@@ -33,6 +33,9 @@
         <h2>{{ pages.get('bml-basics').meta.title }}</h2>
         {{ pages.get('bml-basics').html|safe }}
         <hr>
+        <h2>{{ pages.get('bml-1-build').meta.title }}</h2>
+        {{ pages.get('bml-1-build').html|safe }}
+        <hr>
         <h2>{{ pages.get('bml-1-learning').meta.title }}</h2>
         {{ pages.get('bml-1-learning').html|safe }}
         <hr>
@@ -47,11 +50,13 @@
       </div>
     </footer>
 
-
+    {% include 'prospector-cat-ref/dialogs.html' %}
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="{{ url_for('static', filename='js/jquery-3.2.1.slim.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/popper.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
   </body>
 </html>
 
