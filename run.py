@@ -12,4 +12,4 @@ def home():
     return render_template("prospector-cat-ref/index.html", pages=pages)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8224, debug=True)
+    app.run(host='0.0.0.0', port=8224, debug=True)#, ssl_context='adhoc')

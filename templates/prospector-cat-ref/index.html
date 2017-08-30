@@ -30,8 +30,14 @@
         <h2>{{ pages.get('intro').meta.title }}</h2> 
          {{ pages.get('intro').html|safe }}
         <hr>
-        <h2>{{ pages.get('bml-basics').meta.title }}</h2>
-        {{ pages.get('bml-basics').html|safe }}
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">{{ pages.get('bml-basics').meta.title }}</h2>
+                <p class="card-text">
+            {{ pages.get('bml-basics').html|safe }}
+                </p>
+            </div>
+        </div>
         <hr>
         <h2>{{ pages.get('bml-1-build').meta.title }}</h2>
         {{ pages.get('bml-1-build').html|safe }}
