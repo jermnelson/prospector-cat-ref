@@ -5,4 +5,5 @@ The Initial MVP for the GoldRush BIBCAT project is to first generate a
 collection of MARC XML records from the Alliance GoldRush Comparison 
 service.
 
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bml-1-marc-xml-dialog">Show XML</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bml-1-marc-xml-dialog">MARC XML</button>
+<button type="button" class="btn btn-success" data-toggle="modal" data-target="#bml-1-bf-rdf-dialog">BIBFRAME RDF</button>
