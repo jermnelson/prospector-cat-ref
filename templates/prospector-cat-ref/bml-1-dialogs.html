@@ -1,0 +1,196 @@
+<div class="modal fade" id="bml-1-marc-src-dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">BML Iteration #1 - MARC21</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h3>Example MARC</h3>
+        <p class="lead">Sample from University of Colorado Boulder, located at 
+            <a href="http://libraries.colorado.edu/record=b7223806">http://libraries.colorado.edu/record=b7223806</a>
+        </p>
+      <pre>
+=LDR  03972cam a2200397 a 4500
+=001  ocn779876957
+=003  OCoLC
+=005  20121029232628.0
+=008  120606s2012\\\\ncua\\\\\b\\\\001\0\eng\\
+=010  \\$a2012022491
+=019  \\$a779883771
+=020  \\$a9780786461462 (softcover : alk. paper)
+=020  \\$a0786461462 (softcover : alk. paper)
+=035  \\$a(OCoLC)779876957
+=040  \\$aDLC$beng$cDLC$dYDX$dBTCTA$dYDXCP$dILU$dBWX$dTLE$dCDX
+=049  \\$aCODA
+=050  00$aLB1044.9.C59$bT43 2012
+=245  00$aTeaching comics and graphic narratives :$bessays on theory, strategy and practice /$cedited by Lan Dong ; foreword by Robert G. Weiner.
+=260  \\$aJefferson, NC :$bMcFarland,$c&copy;2012.
+=300  \\$aviii, 272 pages :$billustrations ;$c26 cm.
+=336  \\$atext$btxt$2rdacontent.
+=337  \\$aunmediated$bn$2rdamedia.
+=338  \\$avolume$bnc$2rdacarrier.
+=504  \\$aIncludes bibliographical references and index.
+=505  0\$aAmerican Studies. -- Art and commerce in the classroom : teaching an American studies course in comics / Edward A. Shannon -- The Black politics of newspaper comic strips : teaching Aaron McGruder's The Boondocks and Keith Knight's The K Chronicles / Daniel Stein -- Teaching the comics anthology : the readers, authors, and media of McSweeney's 13 / Alexander Starre -- Teaching visual literacy through 9/11 graphic narratives / Christina Meyer -- Ethnic Studies. -- Drawing attention : comics as a means of approaching U.S. cultural diversity / Derek Parker Royal -- Teaching Asian American graphic narratives in a "post-race" era / Anne Cong-Huyen and Caroline Kyungah Hong -- Graphic multiculturalism : Mine Okubo's Citizen 13660 in the literature classroom / Jessica Knight --Women's and Gender Studies. -- "The slippage between seeing and saying" : getting a life in Alison Bechdel's Fun Home / Susan R. Van Dyne -- Our graphics, ourselves : graphic narratives and the gender studies classroom / M. Catherine Jonet -- Performing the veil : gender and resistance in Marjane Satrapi's Persepolis and Shirin Neshat's photography / Judith Richards and Cynthia M. Williams --Cultural Studies. -- The Weimar Republic redux : multiperspectival history in Jason Lutes' Berlin City of Stones / Joshua Kavaloski -- Ivorian bonus : teaching Abouet and Oubrerie's Aya / Susanna Hoeness-Krupsaw -- Digging up the dirt? Teaching graphic narratives in German academia / Stefan Hoeppner --Genre Studies. -- Making the unseen and the unspoken visible and audible : trauma and the graphic novel / Edward Brunner -- Exposition and disquisition : nonfiction graphic narratives and comics theory in the literature classroom / Adrielle Anna Mitchell -- Serial self-portraits : framing student conversations about graphic memoir / Jonathan D'Amore --Composition, Rhetoric, and Communication. -- Batman returns (to class) : graphic narratives and the syncretic classroom / Katharine Polak MacDonald -- 300 ways to teach the epic / Mary Ann Tobin -- Comics (as) journalism : teaching Joe Sacco's Palestine to media students / Alla Gadassik and Sarah Henstra.
+=520  \\$a"The essays in this collection discuss how comics and graphic narratives can be useful primary texts and learning tools in college and university classes across different disciplines. The book brings together discussions among teacher-scholars to advance the scholarship on teaching comics and graphic narratives--and provides scholars with useful references, critical approaches, and particular case studies"--Provided by publisher.
+=650  \0$aComic books, strips, etc., in education.
+=650  \0$aGraphic novels in education.
+=650  \0$aComic books, strips, etc.$xStudy and teaching.
+=700  1\$aDong, Lan,$d1974-
+=907  \\$a.b72238069$b11-27-14$c11-09-12
+=998  \\$anor$b11-12-12$cx$dm$e-$feng$gncu$h0$i1
+=907  \\$a.b72238069$b10-01-13$c11-09-12
+=944  \\$aRDA ENRICHED
+=907  \\$a.b72238069$b11-12-12$c11-09-12
+=944  \\$aMARS
+    </pre>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="bml-1-bf-rdf-dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">BML Iteration #1 - BIBFRAME RDF</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h3>Example BIBFRAME 2.0 Instance</h3>
+        <pre>
+&lt;http://bibcat.coalliance.org/0000fdd8-898c-11e6-8bdd-005056c00008&gt; a bf:Instance ;
+    bf:carrier [ a bf:Carrier ;
+            rdf:value "nc",
+                "volume" ] ;
+    bf:classification [ a bf:ClassificationLcc ;
+            rdf:value "LB1044.9.C59 T43 2012" ] ;
+    bf:copyrightDate "©2012." ;
+    bf:dimensions "26 cm." ;
+    bf:extent [ a bf:Extent ;
+            rdf:value "viii, 272 pages :" ] ;
+    bf:generationProcess [ a bf:GenerationProcess ;
+            bf:generationDate "2016-10-03T17:08:27.978555" ;
+            rdf:value "Generated by BIBCAT version 1.4.0 from KnowledgeLinks.io"@en ] ;
+    bf:identifiedBy [ a bf:Isbn ;
+            rdf:value "0786461462 (softcover : alk. paper)",
+                "9780786461462 (softcover : alk. paper)" ] ;
+    bf:instanceOf [ a bf:Work ;
+            bf:originDate "2012" ] ;
+    bf:provisionActivity [ a bf:Publication ;
+            relators:pbl "McFarland," ] ;
+    bf:subject [ a bf:Topic ;
+            rdf:value "Comic books, strips, etc." ],
+        [ a bf:Topic ;
+            rdf:value "Graphic novels in education." ],
+        [ a bf:Topic ;
+            rdf:value "Comic books, strips, etc., in education." ] ;
+    bf:summary [ a bf:Summary ;
+            rdf:value ""The essays in this collection discuss how comics and graphic narratives can be useful primary texts and learning tools in college and university classes across different disciplines. The book brings together discussions among teacher-scholars to advance the scholarship on teaching comics and graphic narratives--and provides scholars with useful references, critical approaches, and particular case studies"--Provided by publisher." ] ;
+    bf:tableOfContents [ a bf:TableOfContents ;
+            rdf:value "American Studies. -- Art and commerce in the classroom : teaching an American studies course in comics / Edward A. Shannon -- The Black politics of newspaper comic strips : teaching Aaron McGruder's The Boondocks and Keith Knight's The K Chronicles / Daniel Stein -- Teaching the comics anthology : the readers, authors, and media of McSweeney's 13 / Alexander Starre -- Teaching visual literacy through 9/11 graphic narratives / Christina Meyer -- Ethnic Studies. -- Drawing attention : comics as a means of approaching U.S. cultural diversity / Derek Parker Royal -- Teaching Asian American graphic narratives in a "post-race" era / Anne Cong-Huyen and Caroline Kyungah Hong -- Graphic multiculturalism : Miné Okubo's Citizen 13660 in the literature classroom / Jessica Knight --Women's and Gender Studies. -- "The slippage between seeing and saying" : getting a life in Alison Bechdel's Fun Home / Susan R. Van Dyne -- Our graphics, ourselves : graphic narratives and the gender studies classroom / M. Catherine Jonet -- Performing the veil : gender and resistance in Marjane Satrapi's Persepolis and Shirin Neshat's photography / Judith Richards and Cynthia M. Williams --Cultural Studies. -- The Weimar Republic redux : multiperspectival history in Jason Lutes' Berlin City of Stones / Joshua Kavaloski -- Ivorian bonus : teaching Abouet and Oubrerie's Aya / Susanna Hoeness-Krupsaw -- Digging up the dirt? Teaching graphic narratives in German academia / Stefan Hoeppner --Genre Studies. -- Making the unseen and the unspoken visible and audible : trauma and the graphic novel / Edward Brunner -- Exposition and disquisition : nonfiction graphic narratives and comics theory in the literature classroom / Adrielle Anna Mitchell -- Serial self-portraits : framing student conversations about graphic memoir / Jonathan D'Amore --Composition, Rhetoric, and Communication. -- Batman returns (to class) : graphic narratives and the syncretic classroom / Katharine Polak MacDonald -- 300 ways to teach the epic / Mary Ann Tobin -- Comics (as) journalism : teaching Joe Sacco's Palestine to media students / Alla Gadassik and Sarah Henstra." ] ;
+    bf:title [ a bf:InstanceTitle ;
+            bf:mainTitle "Teaching comics and graphic narratives :" ] .
+
+        </pre>
+        <h3>Example BIBFRAME 2.0 Item</h3>
+        <pre><code>
+&lt;http://libraries.colorado.edu/record=b7223806&gt; a bf:Item ;
+    bf:generationProcess [ a bf:GenerationProcess ;
+            bf:generationDate "2016-10-03T17:08:28.086055" ;
+            rdf:value "Generated by BIBCAT version 1.4.0 from KnowledgeLinks.io"@en ] ;
+    bf:heldBy &lt;http://www.colorado.edu/libraries/&gt; ;
+    bf:itemOf &lt;http://bibcat.coalliance.org/0000fdd8-898c-11e6-8bdd-005056c00008&gt; ;
+    bf:shelfMark [ a bf:ShelfMarkLcc ;
+            rdf:value "LB1044.9.C59T43 2012" ] .
+            
+        </code></pre>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="bml-1-schema-html-dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">BML Iteration #1 - Schema.org Linked data &amp; HTML Views</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <h3>Schema.org JSON Linked Data</h3>
+      <p class="lead">From the BIBFRAME RDF, a web page was generated with validated Schema.org
+        JSON-LD that first was published without HTML and was later embedded in an HTML view.</p>
+      <pre><code>
+{
+  "@context": "http://schema.org",
+  "@type": "Book",
+  "author": [],
+  "datePublished": [
+    "2012"
+  ],
+  "isbn": [
+    "0786461462 (softcover : alk. paper)",
+    "9780786461462 (softcover : alk. paper)"
+  ],
+  "mainEntityOfPage": {
+    "@id": "http://libraries.colorado.edu/record=b7223806",
+    "@type": "CreativeWork",
+    "contentLocation": {
+      "@id": "http://www.colorado.edu/libraries/",
+      "@type": "Library",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Boulder",
+        "addressRegion": "Colorado",
+        "postalCode": "80309-0184",
+        "streetAddress": "1720 Pleasant Street"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "40.0087 N",
+        "longitude": "105.2709 W"
+      },
+      "image": "http://www.colorado.edu/libraries/sites/default/files/styles/large_wide_thumbnail/public/callout/norlin.jpg",
+      "name": "University Libraries - University of Colorado Boulder",
+      "priceRange": "0",
+      "telephone": "303-492-8705"
+    }
+  },
+  "name": "Teaching comics and graphic narratives :",
+  "publisher": {
+    "@type": "Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "height": "90px",
+      "url": "https://www.coalliance.org/sites/all/themes/minim/logo.png",
+      "width": "257px"
+    },
+    "name": "Colorado Alliance of Research Libraries"
+  },
+  "version": "0.7.0"
+}
+</code></pre>
+
+        <h3>HTML View</h3>
+        <img src="{{ url_for('static', filename="img/bm1-html-view.png") }}" style="width: 640px"
+             class="img-thumbnail" alt="Example view of HTML View for BML iteration #1">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+   </div>
+  </div>
+</div>
