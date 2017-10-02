@@ -1,4 +1,4 @@
-title: Build-Measure-Learn Iteration 1 - Learning
+title: Iteration 1 - Learning
 published: 2017-10-05
 
 
