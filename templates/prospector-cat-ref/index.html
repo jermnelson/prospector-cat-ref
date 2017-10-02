@@ -86,21 +86,31 @@
             {{ pages.get('bml-1-learning').html|safe }}
             </div>
         </div>
-        <hr>
+        <p class="lead">
+            After the completed Build-Measure-Learn loop &hellip;
+        </p>
         <div class="card">
             <div class="card-header bg-danger text-white">
-                <h2>{{ pages.get('bml-2-build').meta.title }}</h2>
+                <h2>{{ pages.get('bml-2-build').meta.title }}
+                    <a href="#" onclick="$('#bml-2-build-body').toggleClass('collapse')"
+                       class="btn btn-small text-white pull-right"><i class="fa fa-caret-square-o-down fa-2x" 
+                       aria-hidden="true"></i></a>
+                </h2>
             </div>
-            <div class="card-body collapse">
+            <div class="card-body collapse" id="bml-2-build-body">
                 <p class="card-text">{{ pages.get('bml-2-build').html|safe }}</p>
             </div>
         </div>
         <hr>
         <div class="card">
-            <div class="card-header bg-info text-white">
-                <h2>{{ pages.get('bml-2-measure').meta.title }}</h2>
+            <div class="card-header bg-warning text-white">
+                <h2>{{ pages.get('bml-2-measure').meta.title }}
+                    <a href="#" onclick="$('#bml-2-measure-body').toggleClass('collapse')"
+                       class="btn btn-small text-white pull-right"><i class="fa fa-caret-square-o-down fa-2x" 
+                       aria-hidden="true"></i></a>
+                </h2>
             </div>
-            <div class="card-body collapse">
+            <div class="card-body collapse" id="bml-2-measure-body">
                 <p class="card-text">{{ pages.get('bml-2-measure').html|safe }}</p>
             </div>
         </div>

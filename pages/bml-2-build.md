@@ -5,11 +5,12 @@ The second development cycle for GoldRush BIBCAT began earlier
 in 2017 and implemented the following changes
 
 <ol>
-<li><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bml-2-marc-xml-dialog">MARC XML</button>
-<i class="fa fa-forward" aria-hidden="true"></i></li>
-<li><button type="button" class="btn btn-default">URL Substitution/Dedup</button>
-<i class="fa fa-forward" aria-hidden="true"></i></li>
-<li><button type="button" class="btn btn-success">LOC BF to BF Lean</button>
-<i class="fa fa-forward" aria-hidden="true"></i></li>
-<li><button type="button" class="btn btn-danger">Schema.org/HTML</button></li>
+<li style="padding-bottom: 1em"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bml-2-marc-src-dialog">MARC XML</button>
+
+</li>
+<li style="padding-bottom: 1em"><button type="button" class="btn btn-default" data-toggle="modal" data-target="#bml-2-url-sub-dedup">URL Substitution/Dedup</button>
+</li>
+<li style="padding-bottom: 1em"><button type="button" class="btn btn-success" data-toggle="modal" data-target="#bml-2-loc-bf-to-bf-lean">LOC BF to BF Lean</button>
+</li>
+<li><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#bml-2-schema-html">Schema.org/HTML</button></li>
 </ol>
