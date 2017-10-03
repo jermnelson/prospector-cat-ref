@@ -8,6 +8,7 @@ in 2017 and implemented the following changes
 <li style="padding-bottom: 1em"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bml-2-marc-src-dialog">MARC XML</button>
 
 </li>
+<li style="padding-bottom: 1em"><button type="button" class="btn btn-warning" data-toggle="modal" data-target="#bml-2-loc-marc2bf2">LOC Marc2BIBFRAME2 XSLT</button>
 <li style="padding-bottom: 1em"><button type="button" class="btn btn-default" data-toggle="modal" data-target="#bml-2-url-sub-dedup">URL Substitution/Dedup</button>
 </li>
 <li style="padding-bottom: 1em"><button type="button" class="btn btn-success" data-toggle="modal" data-target="#bml-2-loc-bf-to-bf-lean">LOC BF to BF Lean</button>
