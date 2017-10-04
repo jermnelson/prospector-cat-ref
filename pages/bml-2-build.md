@@ -2,7 +2,13 @@ title: Iteration 2 - Building
 published: 2017-10-05
 
 The second development cycle for GoldRush BIBCAT began earlier
-in 2017 and implemented the following changes
+in 2017 and implemented a number of changes to how the BIBFRAME 
+Linked Data is structured and published to the web for search 
+engine crawling. Using this Repository's [Github Issue tracking](https://github.com/KnowledgeLinks/alliance-bibcat/issues), 
+bugs and enhancements are entered and tracked through through-out the build phase.
+
+
+
 
 <ol>
 <li style="padding-bottom: 1em"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bml-2-marc-src-dialog">MARC XML</button>
