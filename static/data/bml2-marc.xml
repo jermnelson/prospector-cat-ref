@@ -1,0 +1,151 @@
+<ns0:record xmlns:ns0="http://www.loc.gov/MARC21/slim">
+    <ns0:leader>02643nam a22004813a 4500</ns0:leader>
+    <ns0:controlfield tag="001">ebl4198280</ns0:controlfield>
+    <ns0:controlfield tag="003">NhCcYBP</ns0:controlfield>
+    <ns0:controlfield tag="005">20160128113445.1</ns0:controlfield>
+    <ns0:controlfield tag="006">m     o  d        </ns0:controlfield>
+    <ns0:controlfield tag="007">cr  n        a</ns0:controlfield>
+    <ns0:controlfield tag="008">151217s2016    njua    ob    001 0 eng d</ns0:controlfield>
+    <ns0:datafield ind1=" " ind2=" " tag="020">
+      <ns0:subfield code="a">9781400881338</ns0:subfield>
+      <ns0:subfield code="q">electronic book</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1=" " ind2=" " tag="020">
+      <ns0:subfield code="a">1400881331</ns0:subfield>
+      <ns0:subfield code="q">electronic book</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1=" " ind2=" " tag="020">
+      <ns0:subfield code="z">9780691164038</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1=" " ind2=" " tag="020">
+      <ns0:subfield code="z">0691164037</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1=" " ind2=" " tag="037">
+      <ns0:subfield code="a">880361</ns0:subfield>
+      <ns0:subfield code="b">MIL</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1=" " ind2=" " tag="040">
+      <ns0:subfield code="a">NhCcYBP</ns0:subfield>
+      <ns0:subfield code="c">NhCcYBP</ns0:subfield>
+      <ns0:subfield code="d">CoCCC</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1=" " ind2="4" tag="050">
+      <ns0:subfield code="a">QA95</ns0:subfield>
+      <ns0:subfield code="b">.M38 2016eb</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1="0" ind2="4" tag="082">
+      <ns0:subfield code="a">793.74</ns0:subfield>
+      <ns0:subfield code="2">23</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1="0" ind2="4" tag="245">
+      <ns0:subfield code="a">The mathematics of various entertaining subjects :</ns0:subfield>
+      <ns0:subfield code="b">research in recreational math /</ns0:subfield>
+      <ns0:subfield code="c">edited by Jennifer Beineke &amp; Jason Rosenhouse ; with a foreword by Raymond Smullyan.</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1=" " ind2="1" tag="264">
+      <ns0:subfield code="a">Princeton, New Jersey :</ns0:subfield>
+      <ns0:subfield code="b">Princeton University Press in association with the National Museum of Mathematics,</ns0:subfield>
+      <ns0:subfield code="c">[2016]</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1=" " ind2=" " tag="300">
+      <ns0:subfield code="a">1 online resource (1 v.)</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1=" " ind2=" " tag="336">
+      <ns0:subfield code="a">text</ns0:subfield>
+      <ns0:subfield code="2">rdacontent.</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1=" " ind2=" " tag="337">
+      <ns0:subfield code="a">computer</ns0:subfield>
+      <ns0:subfield code="2">rdamedia.</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1=" " ind2=" " tag="338">
+      <ns0:subfield code="a">online resource</ns0:subfield>
+      <ns0:subfield code="2">rdacarrier.</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1=" " ind2=" " tag="504">
+      <ns0:subfield code="a">Includes bibliographical references and index.</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1=" " ind2=" " tag="506">
+      <ns0:subfield code="a">Access restricted to subscribing institutions. Individual titles purchased upon selection by the 7th affiliated user.</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1=" " ind2=" " tag="533">
+      <ns0:subfield code="a">Electronic reproduction.</ns0:subfield>
+      <ns0:subfield code="b">Perth, W.A.</ns0:subfield>
+      <ns0:subfield code="n">Available via World Wide Web.</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1=" " ind2=" " tag="538">
+      <ns0:subfield code="a">Book preview interface supplies PDF, image or read-aloud access. Adobe Digital Editions software required for book downloads.</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1=" " ind2=" " tag="538">
+      <ns0:subfield code="a">Users at some libraries may be required to establish a separate no-charge EBL account, and log in to access the full text. For security, do not use a confidential or important ID and password to log in; create a different username and password.</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1=" " ind2=" " tag="540">
+      <ns0:subfield code="a">Books may be viewed online or downloaded (to a maximum of two devices per patron) for personal use only. No derivative use, redistribution or public performance is permitted. Maximum usage allowances -- loan period: 7 days for some publishers;  printing: up to 20% of the total pages;  copy/paste: up to 5% of the total pages.</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1=" " ind2=" " tag="588">
+      <ns0:subfield code="a">Description based on online resource; title from digital title page (viewed on January 28, 2016)</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1=" " ind2="0" tag="650">
+      <ns0:subfield code="a">Electronic book.</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1=" " ind2="0" tag="650">
+      <ns0:subfield code="a">Mathematical recreations</ns0:subfield>
+      <ns0:subfield code="x">Research.</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1="1" ind2=" " tag="700">
+      <ns0:subfield code="a">Beineke, Jennifer Elaine,</ns0:subfield>
+      <ns0:subfield code="d">1969-</ns0:subfield>
+      <ns0:subfield code="e">editor.</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1="1" ind2=" " tag="700">
+      <ns0:subfield code="a">Rosenhouse, Jason,</ns0:subfield>
+      <ns0:subfield code="e">editor.</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1="2" ind2=" " tag="710">
+      <ns0:subfield code="a">Ebooks Corporation.</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1="4" ind2="0" tag="856">
+      <ns0:subfield code="u">http://www.CA.eblib.com/EBLWeb/patron/?target=patron&amp;extendedid=P_4198280_0</ns0:subfield>
+      <ns0:subfield code="z">View electronic book</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1=" " ind2=" " tag="907">
+      <ns0:subfield code="a">.b24178329</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1=" " ind2=" " tag="902">
+      <ns0:subfield code="a">170206</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1=" " ind2=" " tag="999">
+      <ns0:subfield code="b">1</ns0:subfield>
+      <ns0:subfield code="c">160208</ns0:subfield>
+      <ns0:subfield code="d">m</ns0:subfield>
+      <ns0:subfield code="e">a</ns0:subfield>
+      <ns0:subfield code="f">e</ns0:subfield>
+      <ns0:subfield code="g">4</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1=" " ind2=" " tag="994">
+      <ns0:subfield code="a">ewwwn</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1=" " ind2=" " tag="945">
+      <ns0:subfield code="a">DDA EBL</ns0:subfield>
+      <ns0:subfield code="g">1</ns0:subfield>
+      <ns0:subfield code="j">0</ns0:subfield>
+      <ns0:subfield code="l">ewwwn</ns0:subfield>
+      <ns0:subfield code="h">0</ns0:subfield>
+      <ns0:subfield code="o">e</ns0:subfield>
+      <ns0:subfield code="p">$0.00</ns0:subfield>
+      <ns0:subfield code="q"> </ns0:subfield>
+      <ns0:subfield code="r">-</ns0:subfield>
+      <ns0:subfield code="s">j</ns0:subfield>
+      <ns0:subfield code="t">32</ns0:subfield>
+      <ns0:subfield code="u">0</ns0:subfield>
+      <ns0:subfield code="v">0</ns0:subfield>
+      <ns0:subfield code="w">0</ns0:subfield>
+      <ns0:subfield code="x">0</ns0:subfield>
+      <ns0:subfield code="y">.i23579274</ns0:subfield>
+      <ns0:subfield code="z">160208</ns0:subfield>
+    </ns0:datafield>
+    <ns0:datafield ind1="#" ind2="#" tag="997">
+      <ns0:subfield code="a">mathematics_of_various_entertaining_subjects__research_in_re_____2016_______princeton_a___________________________________________________________________________</ns0:subfield>
+    </ns0:datafield>
+  </ns0:record>
+  

@@ -698,7 +698,94 @@
             </div>
             <div class="modal-body">
                 <h3>URL Substitution</h3>
-                <h3>Alliance Match Key for De-duplication</h3>
+                New Instance URL <a href="https://bibcat.coalliance.org/the-mathematics-of-various-entertaining-subjects-research-in-recreational-math">https://bibcat.coalliance.org/the-mathematics-of-various-entertaining-subjects-research-in-recreational-math</a> replaces 
+                <a href="#">https://bibcat.coalliance.org/ebl4198280#Instance</a>
+                <pre><code>
+&lt;https://bibcat.coalliance.org/the-mathematics-of-various-entertaining-subjects-research-in-recreational-math&gt; a bf:Electronic,
+        bf:Instance ;
+    rdfs:label "The mathematics of various entertaining subjects : research in recreational math /" ;
+    bf:acquisitionSource [ a bf:AcquisitionSource ;
+            rdfs:label "MIL" ;
+            bf:identifiedBy [ a bf:StockNumber ;
+                    rdf:value "880361" ] ] ;
+    bf:carrier [ a bf:Carrier ;
+            rdfs:label "online resource" ;
+            bf:source [ a bf:Source ;
+                    rdfs:label "rda" ] ],
+        &lt;http://id.loc.gov/vocabulary/carriers/cr&gt; ;
+    bf:digitalCharacteristic [ a bflc:ImageBitDepth,
+                bf:DigitalCharacteristic ;
+            rdfs:label "   " ] ;
+    bf:extent [ a bf:Extent ;
+            rdfs:label "1 online resource (1 v.)" ] ;
+    bf:hasItem &lt;https://bibcat.coalliance.org/the-mathematics-of-various-entertaining-subjects-research-in-recreational-math/colorado-college&gt;,
+        &lt;https://bibcat.coalliance.org/the-mathematics-of-various-entertaining-subjects-research-in-recreational-math/colorado-college-1&gt; ;
+    bf:hasReproduction &lt;https://bibcat.coalliance.org/ebl4198280#Instance533-24&gt; ;
+    bf:identifiedBy [ a bf:Isbn ;
+            bf:qualifier "electronic book" ;
+            rdf:value "1400881331" ],
+        [ a bf:Isbn ;
+            bf:status [ a bf:Status ;
+                    rdfs:label "invalid" ] ;
+            rdf:value "0691164037" ],
+        [ a bf:Isbn ;
+            bf:qualifier "electronic book" ;
+            rdf:value "9781400881338" ],
+        [ a bf:Isbn ;
+            bf:status [ a bf:Status ;
+                    rdfs:label "invalid" ] ;
+            rdf:value "9780691164038" ] ;
+    bf:illustrativeContent &lt;http://id.loc.gov/vocabulary/millus/ill&gt; ;
+    bf:instanceOf &lt;https://bibcat.coalliance.org/ebl4198280#Work&gt; ;
+    bf:issuance &lt;http://id.loc.gov/vocabulary/issuance/mono&gt; ;
+    bf:media [ a bf:Media ;
+            rdfs:label "computer" ;
+            bf:source [ a bf:Source ;
+                    rdfs:label "rda" ] ] ;
+    bf:note [ a bf:Note ;
+            rdfs:label "Description based on online resource; title from digital title page (viewed on January 28, 2016)" ;
+            bf:noteType "description source" ],
+        [ a bf:Note ;
+            rdfs:label "Includes bibliographical references and index." ;
+            bf:noteType "bibliography" ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent [ a bf:Agent ;
+                    rdfs:label "Princeton University Press in association with the National Museum of Mathematics" ] ;
+            bf:date "2016" ;
+            bf:place [ a bf:Place ;
+                    rdfs:label "Princeton, New Jersey" ] ],
+        [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:date "2016"^^&lt;http://id.loc.gov/datatypes/edtf&gt; ;
+            bf:place &lt;http://id.loc.gov/vocabulary/countries/nju&gt; ] ;
+    bf:provisionActivityStatement "Princeton, New Jersey : Princeton University Press in association with the National Museum of Mathematics, [2016]" ;
+    bf:responsibilityStatement "edited by Jennifer Beineke & Jason Rosenhouse ; with a foreword by Raymond Smullyan" ;
+    bf:soundContent [ a bf:SoundContent ;
+            rdfs:label "silent" ] ;
+    bf:supplementaryContent [ a bf:SupplementaryContent ;
+            rdfs:label "Index present" ] ;
+    bf:systemRequirement [ a bf:SystemRequirement ;
+            rdfs:label "Users at some libraries may be required to establish a separate no-charge EBL account, and log in to access the full text. For security, do not use a confidential or important ID and password to log in; create a different username and password." ],
+        [ a bf:SystemRequirement ;
+            rdfs:label "Book preview interface supplies PDF, image or read-aloud access. Adobe Digital Editions software required for book downloads." ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "The mathematics of various entertaining subjects : research in recreational math /" ;
+            bflc:titleSortKey "mathematics of various entertaining subjects : research in recreational math /" ;
+            bf:mainTitle "The mathematics of various entertaining subjects" ;
+            bf:subtitle "research in recreational math" ] ;
+    bf:usageAndAccessPolicy [ a bf:UsePolicy ;
+            rdfs:label "Books may be viewed online or downloaded (to a maximum of two devices per patron) for personal use only. No derivative use, redistribution or public performance is permitted. Maximum usage allowances -- loan period: 7 days for some publishers;  printing: up to 20% of the total pages;  copy/paste: up to 5% of the total pages" ],
+        [ a bf:UsageAndAccessPolicy ;
+            rdfs:label "Access restricted to subscribing institutions. Individual titles purchased upon selection by the 7th affiliated user." ] .
+                </code></pre>
+                <h3>De-duplication</h3>
+                <p class="lead">As new LOC BIBFRAME RDF was produced, we used multiple strategies to de-duplicate different BIBFRAME classes 
+                depending on the type of entity.
+                <ul>
+                    <li><strong>BIBFRAME Instance</strong> Alliance Match Key found in the source MARC XML</li>
+                    <li><strong>BIBFRAME Agents, Persons, Organizations, Topics</strong> rdfs:label</li>
+                </ul>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -714,8 +801,90 @@
                 <h5 class="modal-title">BML Iteration #2 - LOC BF to BF Lean</h5>
             </div>
             <div class="modal-body">
-                <h3>Library of Congress MARC2BIBFRAME2</h3>
-                <h3>BIBFRAME Lean</h3>
+                <h3>BIBFRAME Lean Instance</h3>
+                <pre><code>
+&lt;https://bibcat.coalliance.org/the-mathematics-of-various-entertaining-subjects-research-in-recreational-math&gt; a bf:Electronic,
+        bf:Instance ;
+    rdfs:label "The mathematics of various entertaining subjects : research in recreational math /" ;
+    bf:carrier &lt;http://id.loc.gov/vocabulary/carriers/cr&gt; ;
+    bf:identifiedBy [ a bf:Isbn ;
+            rdf:value "1400881331" ],
+        [ a bf:Isbn ;
+            rdf:value "0691164037" ],
+        [ a bf:Isbn ;
+            rdf:value "9781400881338" ],
+        [ a bf:Isbn ;
+            rdf:value "9780691164038" ] ;
+    bf:instanceOf &lt;https://bibcat.coalliance.org/ebl4198280#Work&gt; ;
+    bf:issuance &lt;http://id.loc.gov/vocabulary/issuance/mono&gt; ;
+    bf:note [ a bf:Note ;
+            rdfs:label "Description based on online resource; title from digital title page (viewed on January 28, 2016)" ;
+            bf:noteType "description source" ],
+        [ a bf:Note ;
+            rdfs:label "Includes bibliographical references and index." ;
+            bf:noteType "bibliography" ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:date "2016" ;
+            bf:place "Princeton, New Jersey" ],
+        [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:date "2016"^^&lt;http://id.loc.gov/datatypes/edtf&gt; ;
+            bf:place &lt;http://id.loc.gov/vocabulary/countries/nju&gt; ] ;
+    bf:provisionActivityStatement "Princeton, New Jersey : Princeton University Press in association with the National Museum of Mathematics, [2016]" ;
+    bf:responsibilityStatement "edited by Jennifer Beineke & Jason Rosenhouse ; with a foreword by Raymond Smullyan" ;
+    bf:soundContent [ a bf:SoundContent ;
+            rdfs:label "silent" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "The mathematics of various entertaining subjects : research in recreational math /" ;
+            bf:mainTitle "The mathematics of various entertaining subjects" ;
+            bf:subtitle "research in recreational math" ] .
+                </code></pre>
+                <h3>BIBFRAME Lean Work</h3>
+                <pre><code>
+&lt;https://bibcat.coalliance.org/ebl4198280#Work&gt; a bf:Text,
+        bf:Work ;
+    bf:contribution [ a bf:Contribution ;
+            bf:agent _:Neefb470780564f3092fd99d9d432fb1b,
+                &lt;https://bibcat.coalliance.org/ebl4198280#Agent700-31&gt;,
+                &lt;https://bibcat.coalliance.org/ebl4198280#Agent700-32&gt;,
+                &lt;https://bibcat.coalliance.org/ebl4198280#Agent710-33&gt; ;
+            bf:role _:Nad8232511f8146a29106655a36058191,
+                _:Nf2f3314eddac4dc687a21fe1b1c97b88,
+                relators:ctb ],
+        [ a bf:Contribution ;
+            bf:agent _:Neefb470780564f3092fd99d9d432fb1b,
+                &lt;https://bibcat.coalliance.org/ebl4198280#Agent700-31&gt;,
+                &lt;https://bibcat.coalliance.org/ebl4198280#Agent700-32&gt;,
+                &lt;https://bibcat.coalliance.org/ebl4198280#Agent710-33&gt; ;
+            bf:role _:Nad8232511f8146a29106655a36058191,
+                _:Nf2f3314eddac4dc687a21fe1b1c97b88,
+                relators:ctb ],
+        [ a bf:Contribution ;
+            bf:agent _:Neefb470780564f3092fd99d9d432fb1b,
+                &lt;https://bibcat.coalliance.org/ebl4198280#Agent700-31&gt;,
+                &lt;https://bibcat.coalliance.org/ebl4198280#Agent700-32&gt;,
+                &lt;https://bibcat.coalliance.org/ebl4198280#Agent710-33&gt; ;
+            bf:role _:Nad8232511f8146a29106655a36058191,
+                _:Nf2f3314eddac4dc687a21fe1b1c97b88,
+                relators:ctb ] ;
+    bf:subject &lt;https://bibcat.coalliance.org/ebl4198280#Topic650-29&gt;,
+        &lt;https://bibcat.coalliance.org/ebl4198280#Topic650-30&gt; 
+                </code></pre>
+                <h3>BIBFRAME Lean Itemnstance</h3>
+                <pre><code>
+&lt;https://bibcat.coalliance.org/the-mathematics-of-various-entertaining-subjects-research-in-recreational-math/colorado-college&gt; a bf:Item ;
+    bf:itemOf &lt;https://bibcat.coalliance.org/the-mathematics-of-various-entertaining-subjects-research-in-recreational-math&gt; ;
+    bf:heldBy &lt;https://www.coloradocollege.edu/&gt; ;
+    bf:shelfMark [ a bf:ShelfMarkLcc ;
+            rdfs:label "QA95.M38 2016eb" ] .
+
+                </code></pre>
+                <h3>BIBFRAME Topic</h3>
+                <pre><code>
+&lt;https://bibcat.coalliance.org/ebl4198280#Topic650-30&gt; a bf:Topic ;
+    rdfs:label "Mathematical recreations--Research." .
+                </code></pre>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
