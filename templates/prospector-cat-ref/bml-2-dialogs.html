@@ -871,7 +871,7 @@
     bf:subject &lt;https://bibcat.coalliance.org/ebl4198280#Topic650-29&gt;,
         &lt;https://bibcat.coalliance.org/ebl4198280#Topic650-30&gt; 
                 </code></pre>
-                <h3>BIBFRAME Lean Itemnstance</h3>
+                <h3>BIBFRAME Lean Item</h3>
                 <pre><code>
 &lt;https://bibcat.coalliance.org/the-mathematics-of-various-entertaining-subjects-research-in-recreational-math/colorado-college&gt; a bf:Item ;
     bf:itemOf &lt;https://bibcat.coalliance.org/the-mathematics-of-various-entertaining-subjects-research-in-recreational-math&gt; ;
@@ -901,7 +901,60 @@
             </div>
             <div class="modal-body">
                 <h3>Schema.org Metadata</h3>
-                <h3>HTML Views</h3>
+                <pre><code>
+{
+  "@context": "http://schema.org", 
+  "@type": "CreativeWork", 
+  "author": [], 
+  "contributor": [], 
+  "datePublished": "2016", 
+  "name": "The mathematics of various entertaining subjects : research in recreational math /", 
+  "workExample": [
+    {
+      "@type": "CreativeWork", 
+      "name": "University Libraries - University of Colorado Boulder -- The mathematics of various entertaining subjects : research in recreational math /", 
+      "provider": {
+        "@type": "Organization", 
+        "address": {
+          "@type": "PostalAddress", 
+          "postalCode": "80309-0184", 
+          "streetAddress": "1720 Pleasant Street"
+        }, 
+        "logo": "https://bibcat.coalliance.org/static/img/cu-logo.png", 
+        "name": "University Libraries - University of Colorado Boulder", 
+        "url": "http://www.colorado.edu/"
+      }, 
+      "url": "https://bibcat.coalliance.org/the-mathematics-of-various-entertaining-subjects-research-in-recreational-math/university-of-colorado-boulder"
+    }, 
+    {
+      "@type": "CreativeWork", 
+      "name": "University Libraries - University of Colorado Boulder -- The mathematics of various entertaining subjects : research in recreational math /", 
+      "provider": {
+        "@type": "Organization", 
+        "address": {
+          "@type": "PostalAddress", 
+          "postalCode": "80309-0184", 
+          "streetAddress": "1720 Pleasant Street"
+        }, 
+        "logo": "https://bibcat.coalliance.org/static/img/cu-logo.png", 
+        "name": "University Libraries - University of Colorado Boulder", 
+        "url": "http://www.colorado.edu/"
+      }, 
+      "url": "https://bibcat.coalliance.org/the-mathematics-of-various-entertaining-subjects-research-in-recreational-math/university-of-colorado-boulder-1"
+    }
+  ]
+}
+                </code></pre>
+                <h3>HTML Instance View</h3>
+                <img src="{{ url_for('static', filename='img/bml2-html-instance-view.png') }}" 
+                     alt="BIBFRAME Instance view example" 
+                     style="width: 640px"
+                     class="img-thumbnail" >
+                <h3>HTML Item View</h3>
+                <img src="{{ url_for('static', filename='img/bml2-html-item-view.png') }}"
+                     style="width: 640px"
+                     class="img-thumbnail" 
+                     alt="BIBFRAME Item view example">
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

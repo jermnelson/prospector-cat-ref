@@ -25,7 +25,7 @@ bugs and enhancements are entered and tracked through through-out the build phas
     
     <strong>BIBFRAME Instance:</strong> <em>https://bibcat.coalliance.org/{title-of-instance-in-lowercase-spaces-replaces}</em><br>
     <strong>BIBFRAME Item:</strong><em>https://bibcat.coalliance.org/{title-of-instance-in-lowercase-spaces-replaces}/{institution-name}</em><br>
-    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#bml-2-url-sub-dedup">URL Substitution/Dedup</button>
+    <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#bml-2-url-sub-dedup">URL Substitution/Dedup</button>
 </li>
 <li style="padding-bottom: 1em">
     <p>Because of the large number of triples in the Library of Congress output RDF, we then run our first RDF-Map to shrink the total
